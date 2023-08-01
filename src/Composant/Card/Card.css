@@ -1,0 +1,69 @@
+.gallery{
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 50px 0;
+    border-radius: 15px;
+}
+
+.housing_link{
+    text-decoration: none;
+    aspect-ratio: 1/1;
+    width: 29%;
+    margin: 2%;
+    background-image: linear-gradient(#fc6161, #813031);
+
+    border-radius: 15px;
+    display: flex;
+
+    overflow: hidden;
+    flex-wrap: nowrap;
+    
+}
+.housing_link:hover{
+    background-image: linear-gradient(#813031, #c04c4e);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.1);
+}
+.housing_img{
+    height: 80%;
+}
+.housing_title{
+
+    color: white;
+    font-size: 2vw;
+    white-space: nowrap;
+    height: 20%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+
+
+}
+
+
+
+@media screen and (max-width: 800px){
+
+    .gallery{
+        background-color: white;
+        justify-content: center;
+        margin: 15px 0;
+        border-radius: 0;
+    }
+
+    .housing_link{
+        width: 100%;
+        margin: 0 0 15px 0;
+    
+        border-radius: 10px;
+        
+    }
+
+    .housing_title{
+        font-size: 5vw;    
+    }
+
+}

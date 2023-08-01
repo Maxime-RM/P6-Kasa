@@ -1,0 +1,43 @@
+header{
+    height: 68px;
+    margin: 50px 5% 0 5%;
+    font-size: 24px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo_header{
+    width: 210px;
+    height: 68px
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #FF6060;
+    margin: 0 15px;
+}
+.nav_link:visited {
+    color: #FF6060;
+}
+.nav_link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+    header{
+        font-size: 3vw;
+        margin: 15px 2% 0 2%;
+    
+    }
+    .logo_header{
+        width: 145px;
+        height: 47px
+    }  
+}

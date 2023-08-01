@@ -1,0 +1,9 @@
+.rating{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.rating img{
+    margin: 0 5px;
+}

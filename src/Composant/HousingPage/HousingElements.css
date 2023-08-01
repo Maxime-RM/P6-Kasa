@@ -1,0 +1,63 @@
+.Housing_contents{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 0 0;
+}
+.Housing_title{
+    margin: 0;
+    font-weight: 100;
+}
+.Housing_location{
+    margin: 0;
+    font-weight: 100;
+    font-size: 20px;
+}
+.Housing_tag_list{
+    width: 100%;
+    margin: 15px 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+.Housing_tag{
+    margin: 5px 15px 5px 0px;
+    background-color: #FF6060;
+    color: white;
+    padding: 3px 20px;
+    border-radius: 15px;
+    white-space: nowrap;
+}
+.Housing_host{
+    display: flex;
+    justify-content: flex-end;
+    height: 75px;
+}
+.Housing_host_name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 50%;
+    font-weight: 100;
+    font-size: 20px;
+}
+.Housing_host_img{
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+@media screen and (max-width: 800px){
+    .Housing_contents{
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0 0 0;
+    }
+    .Housing_host_card{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+}

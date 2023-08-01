@@ -1,0 +1,30 @@
+footer{
+    background-color: black;
+
+    padding: 30px;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.logo_footer {
+    width: 122px;
+    height: auto;
+    top: 66px;
+    left: 659px;
+    margin: 0 0 10px 0;
+
+}
+.text_footer{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    margin: 0;
+
+}
